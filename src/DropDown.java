@@ -43,6 +43,7 @@ public class DropDown {
 		
 		System.out.println(select.isMultiple());
 		System.out.println(select.getOptions().size());
+		
 
 	}
 
