@@ -40,6 +40,9 @@ public class DropDown {
 
 		Select select = new Select(element);
 		select.selectByVisibleText(date);
+		
+		System.out.println(select.isMultiple());
+		System.out.println(select.getOptions().size());
 
 	}
 
